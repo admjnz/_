@@ -28,9 +28,11 @@ Thống kê các loại quy tắc khác nhau：
 
 #### Hướng dẫn sử dụng
 - BiliBili.yaml，Vui lòng sử dụng behavior: "classical"。
+- BiliBili-No-Resolve.yaml，Vui lòng sử dụng behavior: "classical"。
 
 #### Đề xuất cấu hình
 - BiliBili.yaml Sử dụng một mình。
+- BiliBili-No-Resolve.yaml Sử dụng chung。
 
 #### Liên kết quy tắc
 **MASTER Chi nhánh (Cập nhật hàng ngày)**
