@@ -56,7 +56,8 @@ Các quy tắc chuyển hướng hiện tại bao gồm các quy tắc phụ sau
 
 ## Nguồn dữ liệu
 
-《Apple》Dữ liệu là từ liên kết sau，Nếu nó liên quan đến dự án này《Apple》Sử dụng hỗn hợp các quy tắc，Nó có thể khiến rất nhiều quy tắc được lặp lại。
+Dữ liệu của Apple đến từ các liên kết sau. Nếu nó được trộn lẫn với các quy tắc của Apple trong dự án này, nó có thể khiến rất nhiều quy tắc được lặp lại。
+
 
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/iCloud.list
