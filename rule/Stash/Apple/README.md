@@ -4,8 +4,11 @@
 
 ![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
-Vui lòng vượt qua địa chỉ trong các quy tắc truy cập kênh truy cập Internet hợp pháp của [Cộng hòa Nhân dân Trung Hoa] và đảm bảo tuân thủ các luật và quy định có liên quan trong quá trình sử dụng。
+Các quy tắc của Apple được tạo tự động bởi RULE GENERATOR。
 
+Quy tắc chuyển hướng là bản tóm tắt tên miền và địa chỉ IP của các dịch vụ công cộng Internet. Tất cả dữ liệu được thu thập từ thông tin công khai trên Internet, điều đó không có nghĩa là chúng tôi hỗ trợ hoặc sử dụng các dịch vụ này。
+
+Vui lòng vượt qua địa chỉ trong các quy tắc truy cập kênh truy cập Internet hợp pháp của [Cộng hòa Nhân dân Trung Hoa] và đảm bảo tuân thủ các luật và quy định có liên quan trong quá trình sử dụng。
 ## Thống kê quy tắc
 
 Thời gian cập nhật cuối cùng：2024-04-14 02:25:11
@@ -57,8 +60,7 @@ Các quy tắc chuyển hướng hiện tại bao gồm các quy tắc phụ sau
 
 ## Nguồn dữ liệu
 
-Dữ liệu của Apple đến từ các liên kết sau. Nếu nó được trộn lẫn với các quy tắc của Apple của dự án này, nó có thể gây ra một số lượng lớn các bản sao。
-
+Dữ liệu của Apple đến từ các liên kết sau. Nếu nó được trộn lẫn với các quy tắc của Apple của dự án này, nó có thể gây ra rất nhiều sự lặp lại của các quy tắc。
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/iCloud.list
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/icloud.txt
