@@ -36,8 +36,8 @@ Thống kê các loại quy tắc khác nhau：
 #### Liên kết quy tắc
 **MASTER Chi nhánh (Cập nhật hàng ngày)**
 
-https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/Copilot/Copilot.yaml
-https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/Copilot/Copilot-No-Resolve.yaml
+https://raw.gitmirror.com/TenChina/All/me/rule/Stash/Copilot/Copilot.yaml
+https://raw.gitmirror.com/TenChina/All/me/rule/Stash/Copilot/Copilot-No-Resolve.yaml
 
 ## Quy tắc phụ/Quy tắc loại trừ
 
