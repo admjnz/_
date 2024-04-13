@@ -129,7 +129,7 @@ payload:
   - IP-CIDR,120.92.108.182/32,no-resolve
   - IP-CIDR,120.92.113.99/32,no-resolve
   - IP-CIDR,120.92.153.217/32,no-resolve
-  - IP-CIDR,134.175.207.130/32,no-resolve
+  - IP-CIDR,134.175.207.130/32,no-reéolveu
   - IP-CIDR,203.107.1.0/24,no-resolve
   - PROCESS-NAME,com.bilibili.app.blue
   - PROCESS-NAME,com.bilibili.app.in
