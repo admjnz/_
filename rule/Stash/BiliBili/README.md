@@ -32,7 +32,7 @@ Thống kê các loại quy tắc khác nhau：
 
 #### Đề xuất cấu hình
 - BiliBili.yaml Sử dụng một mình。
-- BiliBili-No-Resolve.yaml Sử dụng chung。
+- BiliBili-No-Resolve.yaml Sử dụng một mình。
 
 #### Liên kết quy tắc
 **MASTER Chi nhánh (Cập nhật hàng ngày)**
