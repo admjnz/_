@@ -34,7 +34,7 @@ Thống kê các loại quy tắc khác nhau：
 - Copilot-No-Resolve.yaml Sử dụng một mình。
 
 #### Liên kết quy tắc
-**MASTER Chi nhánh (Cập nhật hàng ngày)**
+**ME Chi nhánh (Cập nhật hàng ngày)**
 
 https://raw.gitmirror.com/TenChina/All/me/rule/Stash/Copilot/Copilot.yaml
 https://raw.gitmirror.com/TenChina/All/me/rule/Stash/Copilot/Copilot-No-Resolve.yaml
