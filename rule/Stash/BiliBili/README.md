@@ -4,11 +4,7 @@
 
 ![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
-BiliBili Các quy tắc bởi《RULE GENERATOR Trình tạo quy tắc》Tạo tự động。
-
-Quy tắc chuyển hướng là bản tóm tắt tên miền và địa chỉ IP của các dịch vụ công cộng Internet. Tất cả dữ liệu được thu thập từ thông tin công khai trên Internet, điều đó không có nghĩa là chúng tôi hỗ trợ hoặc sử dụng các dịch vụ này。
-
-Vui lòng vượt qua【Cộng hòa Nhân dân Trung Hoa People's Republic of China】Địa chỉ trong các quy tắc truy cập kênh truy cập Internet hợp pháp và đảm bảo tuân thủ các luật và quy định có liên quan trong quá trình sử dụng.。
+Vui lòng vượt qua địa chỉ trong các quy tắc truy cập kênh truy cập Internet hợp pháp của [Cộng hòa Nhân dân Trung Hoa] và đảm bảo tuân thủ các luật và quy định có liên quan trong quá trình sử dụng。
 
 ## Thống kê quy tắc
 
@@ -47,7 +43,7 @@ Quy tắc shunt hiện tại không bao gồm các quy tắc phụ khác。
 
 ## Nguồn dữ liệu
 
-《BiliBili》Dữ liệu đến từ các liên kết sau, chẳng hạn như với dự án này《BiliBili》Sử dụng hỗn hợp các quy tắc có thể gây ra một số lượng lớn các quy tắc lặp lại。
+Dữ liệu của "BiliBili" đến từ các liên kết sau. Ví dụ, nếu nó được trộn với các quy tắc "BiliBili" của dự án này, nó có thể gây ra một số lượng lớn các quy tắc trùng lặp。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/bilibili.list
