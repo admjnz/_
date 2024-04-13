@@ -1,61 +1,98 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is TenChina
-================================================================================================================================
+    
+<style>
+  @keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
-Web Developer and Designer
---------------------------
+.notification.slide-down {
+  animation: slideDown 0.8s ease forwards;
+}
 
-Do What You Like - Fuck The One You Love
+  @keyframes slideDownOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
 
-*   🌍  I'm based in Vietnamese
-*   ✉️  You can contact me at [tenchina@proton.me](mailto:tenchina@proton.me)
-*   🧠  I'm learning A new framework
-*   🤝  I'm open to collaborating on Interesting projects
-*   ⚡  I'm secretly Ten... but don't tell anyone<a href="https://www.github.com/TenChina" target="_blank" rel="noreferrer"><img
-                  src="https://img.shields.io/github/followers/TenChina?logo=github&style=for-the-badge&color=a855f7&labelColor=000000" /></a>### Skills 
-<p align="left">
-<a href="https://www.php.net/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" /></a><a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36" height="36" alt="C" /></a><a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a><a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg" width="36" height="36" alt="C#" /></a><a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a><a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/swift-colored.svg" width="36" height="36" alt="Swift" /></a><a href="https://www.xcode.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/xcode.svg" width="36" height="36" alt="XCode" /></a><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode.svg" width="36" height="36" alt="VS Code" /></a><a href="https://www.sublimetext.com/index2" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sublimetext.svg" width="36" height="36" alt="Sublime Text" /></a><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a><a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a><a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a><a href="https://www.oracle.com/uk/index.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/oracle-colored.svg" width="36" height="36" alt="Oracle" /></a><a href="https://uniswap.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/uniswap-colored.svg" width="36" height="36" alt="Uniswap" /></a><a href="https://metamask.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/metamask-colored.svg" width="36" height="36" alt="MetaMask" /></a><a href="https://polygon.technology/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/polygon-colored.svg" width="36" height="36" alt="Polygon" /></a><a href="https://ethereum.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/ethereum-colored.svg" width="36" height="36" alt="Ethereum" /></a><a href="https://www.terra.money/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/terra-colored.svg" width="36" height="36" alt="Terra" /></a><a href="https://solana.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/solana-colored.svg" width="36" height="36" alt="Solana" /></a><a href="https://portal.arbitrum.one/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/arbitrum-colored.svg" width="36" height="36" alt="Arbitrum" /></a><a href="https://aave.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aave-colored.svg" width="36" height="36" alt="AAVE" /></a><a href="https://chain.link/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/chainlink-colored.svg" width="36" height="36" alt="Chainlink" /></a><a href="https://www.onflow.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flow-colored.svg" width="36" height="36" alt="Flow" /></a><a href="https://cloud.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/googlecloud-colored.svg" width="36" height="36" alt="Google Cloud" /></a><a href="https://wordpress.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/wordpress-colored.svg" width="36" height="36" alt="Wordpress" /></a><a href="https://apple.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/macos-colored.svg" width="36" height="36" alt="MacOS" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="36" height="36" alt="Linux" /></a><a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored.svg" width="36" height="36" alt="Amazon Web Services" /></a><a href="https://www.digitalocean.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/digitalocean-colored.svg" width="36" height="36" alt="Digital Ocean" /></a>
-                    </p>
-                    
-                  ### Socials
-                  
-                  
-                <p align="left">
-                      <a href="https://www.facebook.com/profile.php?id=100059721235800&mibextid=LQQJ4d" target="_blank" rel="noreferrer">
-                    <picture>
-                    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook-dark.svg" />
-                    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" />
-                    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" />
-                    </picture>
-                    </a>
-                      <a href="https://www.github.com/TenChina" target="_blank" rel="noreferrer">
-                    <picture>
-                    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" />
-                    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" />
-                    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />
-                    </picture>
-                    </a>
-                      <a href="http://www.instagram.com/tenchina_vn" target="_blank" rel="noreferrer">
-                    <picture>
-                    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" />
-                    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" />
-                    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" />
-                    </picture>
-                    </a>
-                      <a href="https://www.x.com/tenchina_vn" target="_blank" rel="noreferrer">
-                    <picture>
-                    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" />
-                    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" />
-                    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" />
-                    </picture>
-                    </a>
-                      <a href="https://www.threads.net/@tenchina.vn" target="_blank" rel="noreferrer">
-                    <picture>
-                    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads-dark.svg" />
-                    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads.svg" />
-                    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads.svg" width="32" height="32" />
-                    </picture>
-                    </a></p>### Badges<b>My GitHub Stats</b><a
-                      href="http://www.github.com/TenChina"><img src="https://github-readme-stats.vercel.app/api?username=TenChina&show_icons=true&hide=&count_private=true&title_color=14b8a6&text_color=ffffff&icon_color=a855f7&bg_color=000000&hide_border=true&show_icons=true" alt="TenChina's GitHub stats" /></a><a
-                      href="http://www.github.com/TenChina"><img
-                  src="https://github-readme-streak-stats.herokuapp.com/?user=TenChina&stroke=ffffff&background=000000&ring=14b8a6&fire=14b8a6&currStreakNum=ffffff&currStreakLabel=14b8a6&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a><a
-                      href="http://www.github.com/TenChina"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=TenChina&bg_color=000000&color=ffffff&line=a855f7&point=ffffff&area_color=000000&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a><a href="https://github.com/TenChina" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TenChina&langs_count=10&title_color=14b8a6&text_color=ffffff&icon_color=a855f7&bg_color=000000&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a><b>Top Repositories</b><div width="100%" align="center"><a href="https://github.com/TenChina/TenSeries" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=TenChina&repo=TenSeries&title_color=14b8a6&text_color=ffffff&icon_color=a855f7&bg_color=000000&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
+.notification.slide-down-out {
+  animation: slideDownOut 0.8s ease forwards;
+}
+
+
+  .notification {
+    border-radius: 8px;
+    border: 1px solid #00ffff; /* Đường viền cho khung thông báo */
+    background-color: #f9f9f9; /* Màu nền cho khung thông báo */
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    left: 1.6%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: none; /* Ẩn thông báo khi chưa được gọi */
+    animation: slideDown 0.8s ease-in-out forwards; /* Thêm hiệu ứng fadeIn */
+  }
+  .close-btn {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    animation:myfirst 0.1s;animation-iteration-count:infinite;-webkit-animation:myfirst 0.8s;-webkit-animation-iteration-count:infinite;font-family:Arial;font-weight:bold;text-decoration:none}@keyframes myfirst{0%{color:hsl(  10,90%,60% )}6%{color:hsl(  30,90%,60% )}12%{color:hsl(  50,90%,60% )}18%{color:hsl(  70,90%,60% )}24%{color:hsl(  90,90%,60% )}30%{color:hsl( 110,90%,60% )}36%{color:hsl( 130,90%,60% )}42%{color:hsl( 150,90%,60% )}48%{color:hsl( 170,90%,60% )}54%{color:hsl( 190,90%,60% )}60%{color:hsl( 210,90%,60% )}66%{color:hsl( 230,90%,60% )}72%{color:hsl( 250,90%,60% )}78%{color:hsl( 270,90%,60% )}84%{color:hsl( 290,90%,60% )}90%{color:hsl( 310,90%,60% )}96%{color:hsl( 330,90%,60% )}100%{color:hsl( 350,90%,60% )}}@-webkit-keyframes myfirst{0%{color:hsl(  10,90%,60% )}6%{color:hsl(  30,90%,60% )}12%{color:hsl(  50,90%,60% )}18%{color:hsl(  70,90%,60% )}24%{color:hsl(  90,90%,60% )}30%{color:hsl( 110,90%,60% )}36%{color:hsl( 130,90%,60% )}42%{color:hsl( 150,90%,60% )}48%{color:hsl( 170,90%,60% )}54%{color:hsl( 190,90%,60% )}60%{color:hsl( 210,90%,60% )}66%{color:hsl( 230,90%,60% )}72%{color:hsl( 250,90%,60% )}78%{color:hsl( 270,90%,60% )}84%{color:hsl( 290,90%,60% )}90%{color:hsl( 310,90%,60% )}96%{color:hsl( 330,90%,60% )}100%{color:hsl( 350,90%,60% )}
+      }
+.tenchina{color:black;animation:myfirst 0.8s;animation-iteration-count:infinite;-webkit-animation:myfirst 1.2s;-webkit-animation-iteration-count:infinite;font-family:Arial;font-weight:bold;font-size:15px;text-decoration:none;text-align:center}@keyframes myfirst{0%{color:hsl( 10,90%,60% )}6%{color:hsl( 30,90%,60% )}12%{color:hsl( 50,90%,60% )}18%{color:hsl( 70,90%,60% )}24%{color:hsl( 90,90%,60% )}30%{color:hsl( 110,90%,60% )}36%{color:hsl( 130,90%,60% )}42%{color:hsl( 150,90%,60% )}48%{color:hsl( 170,90%,60% )}54%{color:hsl( 190,90%,60% )}60%{color:hsl( 210,90%,60% )}66%{color:hsl( 230,90%,60% )}72%{color:hsl( 250,90%,60% )}78%{color:hsl( 270,90%,60% )}84%{color:hsl( 290,90%,60% )}90%{color:hsl( 310,90%,60% )}96%{color:hsl( 330,90%,60% )}100%{color:hsl( 350,90%,60% )}}@-webkit-keyframes myfirst{0%{color:hsl( 10,90%,60% )}6%{color:hsl( 30,90%,60% )}12%{color:hsl( 50,90%,60% )}18%{color:hsl( 70,90%,60% )}24%{color:hsl( 90,90%,60% )}30%{color:hsl( 110,90%,60% )}36%{color:hsl( 130,90%,60% )}42%{color:hsl( 150,90%,60% )}48%{color:hsl( 170,90%,60% )}54%{color:hsl( 190,90%,60% )}60%{color:hsl( 210,90%,60% )}66%{color:hsl( 230,90%,60% )}72%{color:hsl( 250,90%,60% )}78%{color:hsl( 270,90%,60% )}84%{color:hsl( 290,90%,60% )}90%{color:hsl( 310,90%,60% )}96%{color:hsl( 330,90%,60% )}100%{color:hsl( 350,90%,60% )}}</style>
+</head>
+<body>
+
+<div id="notification" class="notification">
+  <div class="tenchina"><span style="font-size:22px">Chào mừng bạn đến với website của chúng tôi!</div>
+  <div class="tenchina">
+        Hỗ trợ nhà mạng Viettel
+    <br>Cung cấp các máy chủ VPN 4G giá rẻ
+    <br>Thanh toán duyệt đơn tự động Banking
+    <br>Thanh toán bằng Momo, Card liên hệ admin
+    <br>Tham gia Groud Zalo để được hỗ trợ thêm nhé 
+    
+  </div>
+  <button class="close-btn" onclick="document.getElementById('notification').style.display='none'">Đóng</button>
+  <div class="tenchina"><span style="font-size:8">编辑 TenChina</div>
+</div>
+
+<script>
+  // Hiển thị thông báo ngay khi trang web được tải
+  window.onload = function() {
+    document.getElementById('notification').style.display = 'block';
+  };
+  function closeNotification() {
+  var notification = document.getElementById('notification');
+  notification.classList.add('slide-down-out'); // Thêm class để kích hoạt hiệu ứng
+
+  setTimeout(function() {
+    notification.style.display = 'none';
+  }, 800); // Đợi hiệu ứng hoàn tất rồi mới ẩn thông báo
+}
+
+// Gán hàm closeNotification vào sự kiện onclick của nút đóng
+document.querySelector('.close-btn').onclick = closeNotification;
+
+</script>
