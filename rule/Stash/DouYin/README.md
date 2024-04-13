@@ -4,11 +4,11 @@
 
 ![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN与DOMAIN--KEYWORD合并-9cf) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
-Quy tắc DouYin bởi《RULE GENERATOR Trình tạo quy tắc》Tạo tự động。
+Các quy tắc của DouYin được tạo tự động bởi RULE GENERATOR。
 
 Quy tắc chuyển hướng là bản tóm tắt tên miền và địa chỉ IP của các dịch vụ công cộng Internet. Tất cả dữ liệu được thu thập từ thông tin công khai trên Internet, điều đó không có nghĩa là chúng tôi hỗ trợ hoặc sử dụng các dịch vụ này。
 
-Vui lòng vượt qua【Cộng hòa Nhân dân Trung Hoa People's Republic of China】Địa chỉ trong các quy tắc truy cập kênh truy cập Internet hợp pháp và đảm bảo tuân thủ các luật và quy định có liên quan trong quá trình sử dụng。
+Vui lòng vượt qua địa chỉ trong các quy tắc truy cập kênh truy cập Internet hợp pháp của [Cộng hòa Nhân dân Trung Hoa] và đảm bảo tuân thủ các luật và quy định có liên quan trong quá trình sử dụng。
 
 ## Thống kê quy tắc
 
