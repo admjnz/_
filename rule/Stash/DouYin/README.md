@@ -33,10 +33,10 @@ Thống kê các loại quy tắc khác nhau：
 - DouYin_Resolve.yaml Sử dụng một mình。
 
 #### Liên kết quy tắc
-**MASTER Chi nhánh (Cập nhật hàng ngày)**
+**ME Chi nhánh (Cập nhật hàng ngày)**
 
-https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/DouYin/DouYin.yaml
-https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/DouYin/DouYin-No-Resolve.yaml
+https://raw.gitmirror.com/TenChina/All/me/rule/Stash/DouYin/DouYin.yaml
+https://raw.gitmirror.com/TenChina/All/me/rule/Stash/DouYin/DouYin-No-Resolve.yaml
 
 ## Quy tắc phụ/Quy tắc loại trừ
 
