@@ -4,8 +4,11 @@
 
 ![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
-Vui lòng vượt qua địa chỉ trong các quy tắc truy cập kênh truy cập Internet hợp pháp của [Cộng hòa Nhân dân Trung Hoa] và đảm bảo tuân thủ các luật và quy định có liên quan trong quá trình sử dụng。
+Các quy tắc BiliBili được tạo tự động bởi Trình tạo quy tắc RULE GENERATOR。
 
+Quy tắc chuyển hướng là bản tóm tắt tên miền và địa chỉ IP của các dịch vụ công cộng Internet. Tất cả dữ liệu được thu thập từ thông tin công khai trên Internet, điều đó không có nghĩa là chúng tôi hỗ trợ hoặc sử dụng các dịch vụ này。
+
+Vui lòng sử dụng địa chỉ trong các quy tắc truy cập kênh truy cập Internet hợp pháp của [Cộng hòa Nhân dân Trung Hoa] và đảm bảo tuân thủ các luật và quy định có liên quan trong quá trình sử dụng。
 ## Thống kê quy tắc
 
 Thời gian cập nhật cuối cùng：2024-04-14 02:57:04
