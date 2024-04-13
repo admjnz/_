@@ -38,6 +38,7 @@ Thống kê các loại quy tắc khác nhau：
 **MASTER Chi nhánh (Cập nhật hàng ngày)**
 
 https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/BiliBili/BiliBili.yaml
+https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/BiliBili/BiliBili-No-Resolve.yaml
 
 ## Quy tắc phụ/Quy tắc loại trừ
 
