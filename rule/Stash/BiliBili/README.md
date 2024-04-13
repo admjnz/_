@@ -34,10 +34,10 @@ Thống kê các loại quy tắc khác nhau：
 - BiliBili-No-Resolve.yaml Sử dụng một mình。
 
 #### Liên kết quy tắc
-**MASTER Chi nhánh (Cập nhật hàng ngày)**
+**ME Chi nhánh (Cập nhật hàng ngày)**
 
-https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/BiliBili/BiliBili.yaml
-https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/BiliBili/BiliBili-No-Resolve.yaml
+https://raw.gitmirror.com/TenChina/All/me/rule/Stash/BiliBili/BiliBili.yaml
+https://raw.gitmirror.com/TenChina/All/me/rule/Stash/BiliBili/BiliBili-No-Resolve.yaml
 
 ## Quy tắc phụ/Quy tắc loại trừ
 
