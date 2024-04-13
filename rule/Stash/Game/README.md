@@ -46,7 +46,7 @@ https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/Game/Game.yaml
 
 ## Quy tắc phụ/Quy tắc loại trừ
 
-Các quy tắc chuyển hướng hiện tại bao gồm các quy tắc phụ sau. Các tham chiếu lặp đi lặp lại không được khuyến nghị trừ khi có một yêu cầu đặc biệt：
+Các quy tắc chuyển hướng hiện tại bao gồm các quy tắc phụ sau. Các tham chiếu lặp đi lặp lại không được khuyến nghị trừ khi có một yêu cầu đặc biệt:
 | Các quy tắc phụ |  |  |  |  | 
 | ---- | ---- | ---- | ---- | ----  |
 | Battle | Blizzard | Classic | DiabloIII | EA  | 
