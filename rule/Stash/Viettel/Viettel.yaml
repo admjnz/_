@@ -5,7 +5,8 @@
 # DOMAIN: 04
 # TOTAL: 04
 payload:
-  - DOMAIN-SUFFIX,viettel.vn,DIRECT
-  - DOMAIN-SUFFIX,viettelpay.vn,DIRECT
-  - DOMAIN-SUFFIX,viettelmoney.vn,DIRECT
-  - DOMAIN-SUFFIX,vietteltelecom.vn,DIRECT
+  - DOMAIN-SUFFIX,viettel.vn
+  - DOMAIN-SUFFIX,viettelpay.vn
+  - DOMAIN-SUFFIX,viettelmoney.vn
+  - DOMAIN-SUFFIX,vietteltelecom.vn
+  - DOMAIN,api8.viettelpay.vn
