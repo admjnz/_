@@ -23,7 +23,7 @@ Thống kê các loại quy tắc khác nhau：
 | TOTAL | 51  | 
 
 
-## Clash 
+## Stash (Clash)
 
 #### Hướng dẫn sử dụng
 - Emby.yaml，Vui lòng sử dụng behavior: "classical"。
@@ -36,8 +36,8 @@ Thống kê các loại quy tắc khác nhau：
 #### Liên kết quy tắc
 **MASTER Chi nhánh (Cập nhật hàng ngày)**
 
-https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/Emby/Emby.yaml
-https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/Emby/Emby-No-Resolve.yaml
+https://raw.gitmirror.com/TenChina/All/me/rule/Stash/Emby/Emby.yaml
+https://raw.gitmirror.com/TenChina/All/me/rule/Stash/Emby/Emby-No-Resolve.yaml
 
 
 ## Quy tắc phụ/Quy tắc loại trừ
