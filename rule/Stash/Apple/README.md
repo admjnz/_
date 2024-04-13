@@ -24,21 +24,26 @@ Thống kê các loại quy tắc khác nhau：
 ## (Stash) Clash 
 
 #### Hướng dẫn sử dụng
-- Apple_Classical.yaml，Vui lòng sử dụng behavior: "classical"。
-- Apple_Domain.yaml，Vui lòng sử dụng behavior: "domain"。
+- Apple-Classical.yaml，Vui lòng sử dụng behavior: "classical"。
+- Apple-Classical-No-Resolve.yaml，Vui lòng sử dụng behavior: "classical"。
+- Apple-Domain.yaml，Vui lòng sử dụng behavior: "domain"。
+- Apple-Domain-Clash.yaml，Vui lòng sử dụng behavior: "domain"。
 
 #### Đề xuất cấu hình
-- Apple_Classical.yaml Sử dụng một mình。
-- Apple_Domain.yaml Sử dụng chung。
+- Apple-Classical.yaml Sử dụng một mình。
+- Apple-Classical-No-Resolve.yaml Sử dụng phổ biến。
+- Apple-Domain.yaml, Apple-Domain-Clash.yaml Sử dụng phổ biến。
 
 #### Liên kết quy tắc
 **MASTER Chi nhánh (Cập nhật hàng ngày)**
 
 https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/Apple/Apple-Classical.yaml
 
+https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/Apple/Apple-Classical-No-Resolve.yaml
+
 https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/Apple/Apple-Domain.yaml
 
-https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/Apple/Apple-Domain.txt
+https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/Apple/Apple-Domain-Clash.txt
 
 ## Quy tắc phụ/Quy tắc loại trừ
 
