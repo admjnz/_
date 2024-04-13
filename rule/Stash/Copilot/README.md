@@ -4,12 +4,11 @@
 
 ![](https://shields.io/badge/-移除重复规则-ff69b4) ![](https://shields.io/badge/-DOMAIN与DOMAIN--SUFFIX合并-green) ![](https://shields.io/badge/-DOMAIN--SUFFIX间合并-critical) ![](https://shields.io/badge/-DOMAIN--SUFFIX与DOMAIN--KEYWORD合并-blue) ![](https://shields.io/badge/-IP--CIDR(6)合并-blueviolet) 
 
-Copilot Các quy tắc bởi《RULE GENERATOR Trình tạo quy tắc》Tạo tự động。
+Các quy tắc Copilot được tạo tự động bởi RULE GENERATOR Rule Generator。
 
 Quy tắc chuyển hướng là bản tóm tắt tên miền và địa chỉ IP của các dịch vụ công cộng Internet. Tất cả dữ liệu được thu thập từ thông tin công khai trên Internet, điều đó không có nghĩa là chúng tôi hỗ trợ hoặc sử dụng các dịch vụ này。
 
-Vui lòng vượt qua【Cộng hòa Nhân dân Trung Hoa People's Republic of China】Địa chỉ trong các quy tắc truy cập kênh truy cập Internet hợp pháp và đảm bảo tuân thủ các luật và quy định có liên quan trong quá trình sử dụng.。
-
+Vui lòng sử dụng địa chỉ trong các quy tắc truy cập kênh truy cập Internet hợp pháp của [Cộng hòa Nhân dân Trung Hoa] và đảm bảo tuân thủ các luật và quy định có liên quan trong quá trình sử dụng。
 ## Thống kê quy tắc
 
 Thời gian cập nhật cuối cùng：2024-04-14 02:57:04
@@ -47,8 +46,7 @@ Quy tắc shunt hiện tại không bao gồm các quy tắc phụ khác。
 
 ## Nguồn dữ liệu
 
-《Copilot》Dữ liệu đến từ các liên kết sau, chẳng hạn như với dự án này《BiliBili》Sử dụng hỗn hợp các quy tắc có thể gây ra một số lượng lớn các quy tắc lặp lại。
-
+Dữ liệu của "Copilot" đến từ các liên kết sau. Nếu nó được trộn lẫn với các quy tắc "Copilot" của dự án này, nó có thể khiến rất nhiều quy tắc bị trùng lặp。
 - https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list
 - https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChatGPT_Voice.list
 
