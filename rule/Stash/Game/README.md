@@ -38,10 +38,10 @@ Thống kê các loại quy tắc khác nhau：
 - Game-No-Resolve.yaml Sử dụng một mình。
 
 #### Liên kết quy tắc
-**MASTER Chi nhánh (Cập nhật hàng ngày)**
+**ME Chi nhánh (Cập nhật hàng ngày)**
 
-https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/Game/Game-No-Resolve.yaml
-https://raw.gitmirror.com/TenChina/TenSeries/main/rule/Stash/Game/Game.yaml
+https://raw.gitmirror.com/TenChina/All/me/rule/Stash/Game/Game-No-Resolve.yaml
+https://raw.gitmirror.com/TenChina/All/me/rule/Stash/Game/Game.yaml
 
 
 ## Quy tắc phụ/Quy tắc loại trừ
