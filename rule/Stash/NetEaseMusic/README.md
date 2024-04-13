@@ -34,10 +34,10 @@ Thống kê các loại quy tắc khác nhau：
 - NetEaseMusic-No-Resolve.yaml Sử dụng một mình。
 
 #### Liên kết quy tắc
-**MASTER Chi nhánh (Cập nhật hàng ngày)**
+**ME Chi nhánh (Cập nhật hàng ngày)**
 
-https://raw.gitmirror.com/TenChina/TenSeries/ten/rule/Stash/NetEaseMusic/NetEaseMusic-No-Resolve.yaml
-https://raw.gitmirror.com/TenChina/TenSeries/ten/rule/Stash/NetEaseMusic/NetEaseMusic.yaml
+https://raw.gitmirror.com/TenChina/All/me/rule/Stash/NetEaseMusic/NetEaseMusic-No-Resolve.yaml
+https://raw.gitmirror.com/TenChina/All/me/rule/Stash/NetEaseMusic/NetEaseMusic.yaml
 
 
 ## Quy tắc phụ/Quy tắc loại trừ
