@@ -1,34 +1,31 @@
-name: |-
-  网络信息 𝕏
-desc: |-
-  国内外 IP, 运营商, ASN, ORG, 位置, 策略; IPv6; 入口落地; 隐私; LAN; SSID. 自己设置对应域名的分流. 提供 https://api64.ipify.org 数据接口, 参数与模块参数相同. 详细参数设置见频道说明: https://t.me/zhetengsha (从最近连接和外部代理集获取同名的节点的信息作为入口数据 不一定正确)
-author: |-
-  @keywos @xream https://t.me/zhetengsha
-icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
-http:
-  mitm:
-    - "api64.ipify.org"
+const url = "http://ip-api.com/json/?fields=8450015&lang=VN";
 
-  script:
-    # Request
-    - match: ^https?:\/\/api64.ipify\.org
-      name: "网络信息 𝕏"
-      type: request
-      timeout: 120
+$httpClient.get(url, function(error, response, data) {
+    if (error) {
+        console.error('Có lỗi xảy ra:', error);
+        return;
+    }
 
-tiles:
-  # Panel
-  - name: "网络信息 𝕏"
-    interval: 300
-    content: "..."
-    icon: "antenna.radiowaves.left.and.right.circle.fill"
-    backgroundColor: "#178BD8"
-    title: "网络信息 𝕏"
-    timeout: 30
-    argument: |-
-      TYPE=TILE&icon=globe.asia.australia&flag=1
+    try {
+        const jsonData = JSON.parse(data);
+        const { query, isp, as, country, city, timezone, lon, lat, currency, countryCode } = jsonData;
+        const emoji = getFlagEmoji(countryCode);
+        const body = {
+            title: "Thông tin",
+            content: `IP：${query}\nNhà cung cấp：${isp}\nASN：${as}\n🌍Quốc gia/Khu vực：${emoji}${country}\nThành phố：${city}\nMúi giờ：${timezone}\nVĩ độ và Kinh độ：${lon},${lat}\nTiền tệ：${currency}`,
+            icon: "🌐",
+            "icon-color": "blue"
+        };
+        $done(body);
+    } catch (e) {
+        console.error('Lỗi khi phân tích dữ liệu JSON:', e);
+    }
+});
 
-script-providers:
-  "网络信息 𝕏":
-    url: https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js
-    interval: 86400
+function getFlagEmoji(countryCode) {
+    const codePoints = countryCode
+        .toUpperCase()
+        .split('')
+        .map(char => 127397 + char.charCodeAt());
+    return String.fromCodePoint(...codePoints);
+}
