@@ -1,0 +1,11 @@
+name: Tiles
+desc: Hiển thị thông tin dựa trên IP
+icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/World_Map.png
+tiles:
+  - name: API
+    interval: 600
+    icon: 'mappin.and.ellipse'
+    backgroundColor: '#f50505'
+script-providers:
+  API: https://raw.githubusercontent.com/TenChina/All/me/rewrite/Stash/Tiles.js
+    interval: 86400
