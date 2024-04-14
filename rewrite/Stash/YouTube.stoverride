@@ -5,7 +5,7 @@ desc: |-
 icon: |-
   https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1095.png
 arguments: |-
-  Chặn nút tải lên:true,Chặn nút lựa chọn:true,Ngôn ngữ dịch phụ đề:vi,Dịch ngôn ngữ của lời bài hát:vi,Công cụ thực thi tập lệnh:jsc,Bật chế độ gỡ lỗi:false
+  Chặn nút tải lên:true,Chặn nút lựa chọn:true,Ngôn ngữ dịch phụ đề:zh-Hans,Dịch ngôn ngữ của lời bài hát:zh-Hans,Công cụ thực thi tập lệnh:jsc,Bật chế độ gỡ lỗi:false
 arguments-desc: |-
   - Các thông số che chắn：[true, false] \n- Các thông số dịch thuật：[Mã ngôn ngữ, off] \n- Công cụ kịch bản：[auto, jsc, webview]\n\n1. Mã ngôn ngữ theo sau Google Translate Languages Codes, Khi điền vào off Tắt bản dịch\n2. Khuyến nghị sử dụng jsc Động cơ，Nhưng bạn vẫn có thể chuyển sang webview Kinh nghiệm Surge Các tính năng mới\n3. Bật chế độ gỡ lỗi để xuất nhiều nhật ký hơn
 
@@ -34,7 +34,7 @@ http:
       max-size: -1
       binary-mode: true
       argument: |-
-        {"lyricLang":"vi","captionLang":"vi","blockUpload":true,"blockImmersive":true,"debug":false}
+        {"lyricLang":"zh-Hans","captionLang":"zh-Hans","blockUpload":true,"blockImmersive":true,"debug":false}
 
 script-providers:
   "youtube.request_12":
