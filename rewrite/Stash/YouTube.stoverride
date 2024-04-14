@@ -14,13 +14,13 @@ http:
     - "youtubei.googleapis.com"
   script:
     - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\?
-      name: YouTubequguanggao1
+      name: YouTube Ten1
       type: response
       require-body: true
       binary-mode: true
       timeout: 10
     - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\?
-      name: YouTubequguanggao2
+      name: YouTube Ten2
       type: request
       require-body: true
       binary-mode: true
@@ -32,9 +32,9 @@ http:
     - ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject-200
     - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject-200
 script-providers:
-  YouTubequguanggao1:
+  YouTube Ten1:
     url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.response.beta.js
     interval: 86400
-  YouTubequguanggao2:
+  YouTube Ten2:
     url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.request.beta.js
     interval: 86400
