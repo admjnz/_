@@ -26,7 +26,7 @@ http:
       timeout: 10
       max-size: 1048576
   rewrite:
-    - ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data="https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/blank.txt"
+    - ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/blank.txt
 script-providers:
   YouTube 01:
     url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.request.preview.js
