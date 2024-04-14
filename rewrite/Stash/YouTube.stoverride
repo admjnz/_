@@ -2,9 +2,9 @@
 #!desc = Giữ vững pip，Chơi trong nền
 #!author = Maasea 
 #!github=https://github.com/TenChina
-icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 name: YouTube Premium
 desc: Giữ vững pip，Chơi trong nền
+icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 http:
   mitm:
     - "-redirector*.googlevideo.com"
