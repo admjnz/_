@@ -1,4 +1,4 @@
-name: Tiles
+name: API
 desc: Hiển thị thông tin dựa trên IP
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/World_Map.png
 tiles:
