@@ -1,0 +1,10 @@
+# NAME: Viettel
+# AUTHOR: TenChina
+# REPO: https://github.com/TenChina/TenSeries
+# UPDATED: 2024-04-13 18:30:11
+# DOMAIN: 04
+# TOTAL: 04
+DOMAIN-SUFFIX,viettel.vn
+DOMAIN-SUFFIX,viettelpay.vn
+DOMAIN-SUFFIX,viettelmoney.vn
+DOMAIN-SUFFIX,vietteltelecom.vn
