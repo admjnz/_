@@ -1,0 +1,11 @@
+# NAME: My Viettel
+# AUTHOR: TenChina
+# REPO: https://github.com/TenChina/TenSeries
+# UPDATED: 2024-04-13 18:30:11
+# DOMAIN: 04
+# TOTAL: 04
+payload:
+  - '*.viettel.vn'
+  - '*.viettelpay.vn'
+  - '*.viettelmoney.vn'
+  - '*.vietteltelecom.vn'
