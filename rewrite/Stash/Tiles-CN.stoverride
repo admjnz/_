@@ -1,0 +1,34 @@
+name: |-
+  Thông tin mạng 𝕏
+desc: |-
+  Trong và ngoài nước IP, Người điều hành, ASN, ORG, Vị trí, Chiến thuật; IPv6; Lối vào hạ cánh; Sự riêng tư; LAN; SSID. Tự thiết lập chuyển hướng tên miền tương ứng. Cung cấp https://net-lsp-x.com Giao diện dữ liệu có các tham số giống như các tham số mô-đun. Để biết cài đặt tham số chi tiết, hãy xem mô tả kênh: https://t.me/zhetengsha (Lấy thông tin của nút có cùng tên từ kết nối gần đây và bộ tác nhân bên ngoài làm dữ liệu nhập có thể không chính xác)
+author: |-
+  @keywos @xream https://t.me/zhetengsha
+icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
+http:
+  mitm:
+    - "net-lsp-x.com"
+
+  script:
+    # Request
+    - match: ^https?:\/\/net-lsp-x\.com
+      name: "Thông tin mạng 𝕏"
+      type: request
+      timeout: 120
+
+tiles:
+  # Panel
+  - name: "Thông tin mạng 𝕏"
+    interval: 300
+    content: "..."
+    icon: "antenna.radiowaves.left.and.right.circle.fill"
+    backgroundColor: "#178BD8"
+    title: "网络信息 𝕏"
+    timeout: 30
+    argument: |-
+      TYPE=TILE&icon=globe.asia.australia&flag=1
+
+script-providers:
+  "Thông tin mạng 𝕏":
+    url: https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js
+    interval: 86400
