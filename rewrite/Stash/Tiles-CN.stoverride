@@ -23,7 +23,7 @@ tiles:
     content: "..."
     icon: "antenna.radiowaves.left.and.right.circle.fill"
     backgroundColor: "#178BD8"
-    title: "网络信息 𝕏"
+    title: "Thông tin mạng 𝕏"
     timeout: 30
     argument: |-
       TYPE=TILE&icon=globe.asia.australia&flag=1
