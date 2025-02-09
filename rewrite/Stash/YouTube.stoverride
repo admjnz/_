@@ -1,13 +1,10 @@
-name: |-
-  Youtube (Music) Enhance
+name: Youtube (Music) Enhance
 desc: |-
-  Áp dụng cho Youtube & Youtube Music
-icon: |-
-  https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-arguments: |-
-  Chặn nút tải lên:true,Chặn nút lựa chọn:true,Ngôn ngữ dịch phụ đề:zh-Hans,Dịch ngôn ngữ của lời bài hát:zh-Hans,Công cụ thực thi tập lệnh:jsc,Bật chế độ gỡ lỗi:false
-arguments-desc: |-
-  - Các thông số che chắn：[true, false] \n- Các thông số dịch thuật：[Mã ngôn ngữ, off] \n- Công cụ kịch bản：[auto, jsc, webview]\n\n1. Mã ngôn ngữ theo sau Google Translate Languages Codes, Khi điền vào off Tắt bản dịch\n2. Khuyến nghị sử dụng jsc Động cơ，Nhưng bạn vẫn có thể chuyển sang webview Kinh nghiệm Surge Các tính năng mới\n3. Bật chế độ gỡ lỗi để xuất nhiều nhật ký hơn
+  Applicable to Youtube & Youtube Music
+  Author: @Maasea @Script-Hub @Admjnz
+  Last update time: 2025-02-10 03:54
+icon: https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/YouTube.png
+category: ⚙️ ▸ NoAds
 
 http:
 
@@ -16,30 +13,26 @@ http:
     - "youtubei.googleapis.com"
 
   url-rewrite:
-    - >-
-      ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-200
+    - ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-200
 
   script:
-    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)
-      name: "youtube.request"
-      type: request
-      require-body: true
-      max-size: -1
-      binary-mode: true
-
-    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch)
       name: "youtube.response"
       type: response
       require-body: true
       max-size: -1
       binary-mode: true
       argument: |-
-        {"lyricLang":"zh-Hans","captionLang":"zh-Hans","blockUpload":true,"blockImmersive":true,"debug":false}
+        {"lyricLang":"vi","captionLang":"vi","blockUpload":true,"blockImmersive":true,"debug":false}
 
 script-providers:
-  "youtube.request":
-    url: https://raw.gitmirror.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.request.preview.js
-    interval: 86400
   "youtube.response":
-    url: https://raw.gitmirror.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.response.preview.js
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.response.preview.js
     interval: 86400
+
+script:
+  shortcuts:
+    quic-googlevideo: network == 'udp' and (host.endswith('googlevideo.com') or host.endswith('googleapi.com'))
+
+rules:
+  - SCRIPT,quic-googlevideo,REJECT
